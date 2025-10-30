@@ -1,0 +1,10 @@
+Code,Name
+Code,Name
+"Description: Code
+Type: Alphanumeric
+Field Length: 50
+","Description: Name
+Type: Alphanumeric
+Field Length: 100
+"
+"This field serves as the key of the record in SAP BusinessOne system and it is mandatory. This field is used as a reference in the child template. When adding new data, the value of this field is user defined (e.g., 1,2,3, etc.). When updating existing data, the value of this field should be the real record key in SAP BusinessOne.",

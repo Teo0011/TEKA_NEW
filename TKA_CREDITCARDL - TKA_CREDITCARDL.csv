@@ -1,0 +1,34 @@
+ParentKey,LineNum,Code,U_TKA_CreditCard,U_TKA_DueDate,U_Valid,U_AcctCode,U_BankName,U_CreditCardA,U_CreditLimit,U_Remarks,U_BankCode
+Code,LineNum,Code,U_TKA_CreditCard,U_TKA_DueDate,U_Valid,U_AcctCode,U_BankName,U_CreditCardA,U_CreditLimit,U_Remarks,U_BankCode
+,"It should be an integer which begin with 0, it is both for updating and importing.","Description: Code
+Field Length: 1
+","Description: Πιστωτική Κάρτα
+Type: Alphanumeric
+Field Length: 15
+","Description: Ημερομηνία Λήξης
+Type: Date
+Format: YYYYMMDD
+Field Length: 100
+","Description: Ενεργό
+Type: Alphanumeric
+Field Length: 19
+","Description: Λογαριασμός
+Type: Alphanumeric
+Field Length: 40
+","Description: Τράπεζα
+Type: Alphanumeric
+Field Length: 50
+","Description: Πιστωτική Κάρτα
+Type: Alphanumeric
+Field Length: 10
+","Description: Ανώτατο Όριο
+Type: Units and Totals
+Field Length: 
+","Description: Παρατηρήσεις
+Type: Alphanumeric
+Field Length: 
+","Description: Κωδ. Τράπεζας
+Type: Alphanumeric
+Field Length: 
+"
+"This field serves as a link to the parent template and it is mandatory. Either when adding new data or updating existing data, the value of this field should be taken from the parent template (the value of the first field in the parent template). The name of the parent key field is specified in the second row of this template.",,"This field serves as the key of the record in SAP BusinessOne system and it is mandatory. This field is used as a reference in the child template. When adding new data, the value of this field is user defined (e.g., 1,2,3, etc.). When updating existing data, the value of this field should be the real record key in SAP BusinessOne.",,,,,,,,,
